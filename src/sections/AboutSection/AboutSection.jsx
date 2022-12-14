@@ -9,7 +9,7 @@ import SkillsSection from './SkillsSection/SkillsSection'
 function AboutSection({state}) {
 
   return (
-    <section id='about-section' className={!state.about && "hide"}>
+    <section id='about-section'  className={!state.about ? "hide" : undefined}>
       <h2>ABOUT</h2>
       <BioSection />
       <ExperienceSection />

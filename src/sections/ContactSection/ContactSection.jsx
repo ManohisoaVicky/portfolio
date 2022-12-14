@@ -5,7 +5,7 @@ import "./ContactSection.css"
 function ContactSection({state}) {
 
   return (
-    <section id="contact-section" className={!state.contact && "hide"}>
+    <section id="contact-section" className={!state.contact ? "hide" : undefined}>
         <h2>Contacts</h2>
     </section>
   )
