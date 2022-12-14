@@ -1,0 +1,9 @@
+.hide {
+    display: none;
+}
+
+#about-section {
+    border: 2px solid blue;
+    height: 900px;
+    color: blue;
+}

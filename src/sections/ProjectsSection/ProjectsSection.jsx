@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react"
 
 import "./ProjectsSection.css"
 
-function ProjectsSection() {
+function ProjectsSection({state}) {
+
   return (
-    <section id="projects-section">
+    <section id="projects-section" className={!state.projects && "hide"}>
       <h2>PROJECTS</h2>
     </section>
   )
