@@ -1,4 +1,12 @@
+:root {
+    --main: #5C8001;
+    --sub: #7CB518;
+    --title-font: 'Black Han Sans', sans-serif;
+    --text-font: 'Candal', sans-serif;
+}
+
 #home-section {
     height: 100vh;
-    border: 2px solid red;
+    padding-top: 50px;
+    font-family: var(--title-font);
 }
