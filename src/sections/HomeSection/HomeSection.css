@@ -40,10 +40,19 @@
     font-size: 36px;
 }
 
+#intro-container h1, 
+#intro-container h3 {
+    animation: slide-up .5s .5s ease-out forwards;
+    opacity: 0;
+}
 
-img {
-    height: 300px;
-    width: 300px;
-    border: 2px solid var(--main);
-    border-radius: 50%;
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(4rem);
+    } 
+    100% {
+        opacity: 1;
+        transform: none;
+    }
 }

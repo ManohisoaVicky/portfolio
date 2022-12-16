@@ -4,7 +4,9 @@ import "./BioSection.css"
 
 function BioSection() {
   return (
-    <div>BioSection</div>
+    <div id="bio-section">
+      <h2>Bio Section</h2>
+    </div>
   )
 }
 

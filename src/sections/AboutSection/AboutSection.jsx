@@ -10,11 +10,10 @@ function AboutSection({state}) {
 
   return (
     <section id='about-section'  className={!state.about ? "hide" : undefined}>
-      <h2>ABOUT</h2>
       <BioSection />
+      <SkillsSection />
       <ExperienceSection />
       <InterestsSection />
-      <SkillsSection />
     </section>
   )
 }

@@ -4,7 +4,9 @@ import "./SkillsSection.css"
 
 function SkillsSection() {
   return (
-    <div>SkillsSection</div>
+    <div id='skills-section'>
+      <h2>Skills Section</h2>
+    </div>
   )
 }
 

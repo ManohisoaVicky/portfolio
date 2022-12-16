@@ -4,7 +4,7 @@ import "./ExperienceSection.css"
 
 function ExperienceSection() {
   return (
-    <div>ExperienceSection</div>
+    <div id="experience-section">ExperienceSection</div>
   )
 }
 

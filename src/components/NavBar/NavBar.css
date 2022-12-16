@@ -32,8 +32,20 @@
 .navbar-link {
     text-decoration: none;
     color: white;
-    animation: heartbeat 2s 2s ease-out infinite;
+    animation: slide-up .5s .5s ease-out forwards,
+               heartbeat 2s 2s ease-out infinite;
     opacity: 0;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(4rem);
+    } 
+    100% {
+        opacity: 1;
+        transform: none;
+    }
 }
 
 @keyframes heartbeat {
