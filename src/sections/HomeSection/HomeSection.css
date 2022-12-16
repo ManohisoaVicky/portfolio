@@ -1,8 +1,8 @@
 :root {
     --main: #5C8001;
-    --sub: #7CB518;
-    --background: #f1fde2;
-    --title-font: 'Black Han Sans', sans-serif;
+    --sub: #f1fde2;
+    --title-font: 'Carter One', cursive;
+    --sub-font: 'Black Han Sans', sans-serif;
     --text-font: 'Candal', sans-serif;
 }
 
@@ -19,7 +19,7 @@
 #home-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 
     width: 70%;
 }
@@ -30,15 +30,14 @@
 
 #intro-container > h1 {
     font-family: var(--title-font);
-    font-size: 40px;
-    letter-spacing: 5px;
-    padding-bottom: 50px;
+    font-size: 60px;
+    padding-bottom: 10px;
 }
 
 #intro-container > h3 {
-    font-family: var(--text-font);
+    font-family: var(--sub-font);
     color: var(--main);
-    font-size: 26px;
+    font-size: 36px;
 }
 
 

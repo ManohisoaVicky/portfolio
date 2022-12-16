@@ -37,10 +37,10 @@ function NavBar({state, setState}) {
   return (
     <nav id="navbar-container">
         <ul id="navbar-list-container">
-            <li><a href="#home-section">HOME</a></li>
-            <li onClick={toAbout}><a href="#about-section">ABOUT</a></li>
-            <li onClick={toProjects}><a href="#projects-section">PROJECTS</a></li>
-            <li onClick={toContact}><a href="#contact-section">CONTACT</a></li>
+            <li><a href="#home-section" className='navbar-link'>HOME</a></li>
+            <li onClick={toAbout}><a href="#about-section" className='navbar-link'>ABOUT</a></li>
+            <li onClick={toProjects}><a href="#projects-section" className='navbar-link'>PROJECTS</a></li>
+            <li onClick={toContact}><a href="#contact-section" className='navbar-link'>CONTACT</a></li>
         </ul>
     </nav>
   )
