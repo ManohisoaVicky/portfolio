@@ -32,9 +32,18 @@
 .navbar-link {
     text-decoration: none;
     color: white;
-    transition: .8s;
+    animation: heartbeat 2s 2s ease-out infinite;
+    opacity: 0;
 }
 
-/* .navbar-link:hover {
-    text-decoration: underline;
-} */
+@keyframes heartbeat {
+    0% {
+        opacity: 1;
+    } 
+    50% {
+        opacity: .5;
+    } 
+    100% {
+        opacity: 1;
+    }
+}
