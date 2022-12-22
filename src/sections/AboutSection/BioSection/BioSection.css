@@ -1,3 +1,32 @@
+:root {
+    --dark: #092428;
+    --light: #c8e690;
+    --title-font: 'Carter One', cursive;
+    --sub-font: 'Black Han Sans', sans-serif;
+    --text-font: 'Candal', sans-serif;
+}
+
 #bio-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
+}
+
+#bio-section > h2 {
+   font-size: 38px;
+   font-family: var(--title-font);
+   color: var(--dark);
+   margin-bottom: 50px;
+}
+
+#bio-container {
+    width: 50%;
+    border: 2px solid var(--dark);
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: var(--text-font);
+    text-align: center;
+    padding: 10px;
 }

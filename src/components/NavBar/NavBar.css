@@ -1,6 +1,6 @@
 :root {
-    --main: #5C8001;
-    --sub: #f1fde2;
+    --dark: #092428;
+    --light: #c8e690;
     --title-font: 'Carter One', cursive;
     --sub-font: 'Black Han Sans', sans-serif;
     --text-font: 'Candal', sans-serif;
@@ -12,10 +12,11 @@
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: var(--main);
+    background-color: var(--dark);
     font-family: var(--title-font);
     letter-spacing: 5px;
     font-size: 18px;
+    opacity: 1;
 }
 
 #navbar-list-container {

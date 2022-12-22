@@ -6,10 +6,8 @@ function HomeSection() {
   return (
     <section id="home-section">
       <div id="home-container">
-        <div id="intro-container">
-          <h1>Hi, I'm Manohisoa Rajaonarivony</h1>
-          <h3>Junior Full Stack Software Developer</h3>
-        </div>
+          <h1>Manohisoa Rajaonarivony</h1>
+          <h3>Developer</h3>
       </div>
     </section>
   )

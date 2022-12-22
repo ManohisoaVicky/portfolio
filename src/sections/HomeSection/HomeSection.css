@@ -1,9 +1,9 @@
 :root {
-    --main: #5C8001;
-    --sub: #f1fde2;
-    --title-font: 'Carter One', cursive;
-    --sub-font: 'Black Han Sans', sans-serif;
-    --text-font: 'Candal', sans-serif;
+    --dark: #092428;
+    --light: #c8e690;
+    --title-font: 'Poppins', sans-serif;
+    --sub-font: 'Montserrat', sans-serif;
+    --text-font: 'Open Sans', sans-serif;
 }
 
 #home-section {
@@ -14,45 +14,37 @@
     height: 100vh;
     padding-top: 70px;
     font-family: var(--title-font);
+    /* background: url(../../assets/home-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 #home-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
     width: 70%;
 }
 
-#intro-container {
+#home-container {
     height: 100%;
 }
 
-#intro-container > h1 {
+#home-container > h1 {
     font-family: var(--title-font);
     font-size: 60px;
     padding-bottom: 10px;
 }
 
-#intro-container > h3 {
+#home-container > h3 {
     font-family: var(--sub-font);
-    color: var(--main);
     font-size: 36px;
 }
 
-#intro-container h1, 
-#intro-container h3 {
-    animation: slide-up .5s .5s ease-out forwards;
-    opacity: 0;
-}
-
-@keyframes slide-up {
-    0% {
-        opacity: 0;
-        transform: translateY(4rem);
-    } 
-    100% {
-        opacity: 1;
-        transform: none;
-    }
+#home-container h1, 
+#home-container h3 {
+    color: var(--dark);
 }
