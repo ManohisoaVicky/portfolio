@@ -34,18 +34,27 @@ function InterestSlider() {
   };
 
   return (
-    <div id="interest-slider-container">
-      <div className="slider-button" onClick={prevInt}></div>
-      <div id="slider-container">
-        <div id="slider-image-container">
-          <img id="slider-image" src={imgUrl[index]} alt={interest[index].name} />
-        </div>
-        <div id="slider-description-container">
-          <h3>{interest[index].name}</h3>
-          <p>{interest[index].description}</p>
-        </div>
+    <div id='interest-container'>
+      <div id='interest-heading'>
+        Interests
       </div>
-      <div className="slider-button" onClick={nextInt}></div>
+      <div id="interest-slider-container">
+        <div className="slider-button" onClick={prevInt}></div>
+        <div id="slider-container">
+          <div id="slider-image-container">
+            <img
+              id="slider-image"
+              src={imgUrl[index]}
+              alt={interest[index].name}
+            />
+          </div>
+          <div id="slider-description-container">
+            <h3>{interest[index].name}</h3>
+            <p>{interest[index].description}</p>
+          </div>
+        </div>
+        <div className="slider-button" onClick={nextInt}></div>
+      </div>
     </div>
   );
 }
