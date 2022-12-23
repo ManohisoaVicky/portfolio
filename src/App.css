@@ -1,11 +1,10 @@
 :root {
     --dark: #092428;
     --light: #c8e690;
-    --title-font: 'Poppins', sans-serif;
-    --sub-font: 'Montserrat', sans-serif;
-    --text-font: 'Open Sans', sans-serif;
+    --title-font: 'Carter One', cursive;
+    --sub-font: 'Black Han Sans', sans-serif;
+    --text-font: 'Candal', sans-serif;
 }
-
 /* .App {
     background-color: var(--light);
 } */

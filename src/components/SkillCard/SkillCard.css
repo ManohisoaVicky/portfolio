@@ -1,0 +1,20 @@
+:root {
+    --dark: #092428;
+    --light: #c8e690;
+    --title-font: 'Carter One', cursive;
+    --sub-font: 'Black Han Sans', sans-serif;
+    --text-font: 'Candal', sans-serif;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px
+}
+
+.skill-icon {
+    font-size: 50px;
+    color: var(--dark);
+}
