@@ -60,10 +60,6 @@ export const skills = [
     name: "GitHub",
   },
   {
-    icon: "devicon-trello-plain",
-    name: "Trello",
-  },
-  {
     icon: "devicon-npm-original-wordmark",
     name: "npm",
   },
