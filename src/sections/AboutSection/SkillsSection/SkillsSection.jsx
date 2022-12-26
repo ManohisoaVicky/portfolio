@@ -7,7 +7,7 @@ import "./SkillsSection.css"
 function SkillsSection() {
   return (
     <div id="skills-section">
-      <h2>Skills Section</h2>
+      <h2>Skills</h2>
       <div id="skills-container">
         {
           skills.map((skill) => {

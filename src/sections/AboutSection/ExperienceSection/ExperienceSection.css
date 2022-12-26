@@ -1,4 +1,19 @@
 #experience-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
     height: 100vh;
     padding-top: 70px;
+}
+
+#experience-container {
+    height: 90%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
