@@ -26,7 +26,7 @@ function ExperienceCard({experience}) {
           <h3>{experience.name}</h3>
           <p>{experience.company}</p>
           <p>{experience.duration}</p>
-          <p>{experience.description}</p>
+          <p className='experience-description-container'>{experience.description}</p>
         </div>
       </div>
     </div>

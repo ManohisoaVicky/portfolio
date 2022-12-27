@@ -1,15 +1,22 @@
 #experience-section {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
     height: 100vh;
     padding-top: 70px;
 }
 
+#experience-section h2 {
+   font-size: 38px;
+   font-family: var(--title-font);
+   color: var(--dark);
+   margin-bottom: 50px;
+}
+
 #experience-container {
-    height: 90%;
+    height: 80%;
     width: 100%;
 
     display: flex;
