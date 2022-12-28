@@ -15,6 +15,6 @@ export const interests = [
     id: 2,
     name: "Reading",
     description:
-      "I love reading.I enjoy reading fantasy novels, such as The Beginning After The End by Brandon Lee, who goes by the pen name TurtleMe. Being able to dive into another world through the eyes of another is an experience that I can only get through reading. Reading also relaxes me and gives me a way to unwind.",
+      "I love reading.I enjoy reading fantasy novels, such as The Beginning After The End by TurtleMe.",
   },
 ];

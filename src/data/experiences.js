@@ -4,7 +4,7 @@ export const experiences = [
     company: "General Assembly",
     duration: "June 2022 - December 2022",
     description:
-      "A 24-week coding bootcamp that helped me learn more about programming and how to build full stack applications. The course offered a variety of real-life experiences such as stand-ups, pair and group programming, and projects.",
+      "A 24-week coding bootcamp that taught me about programming and how to build full stack apps. It offered a variety of real-life experiences such as stand-ups, pair and group programming, and projects.",
   },
   {
     name: "Writer",

@@ -20,13 +20,13 @@ function ExperienceCard({experience}) {
       >
         <div className="experience-card-face front-face">
           <h3>{experience.name}</h3>
+          <p>{experience.company}</p>
           <p>{experience.duration}</p>
         </div>
         <div className="experience-card-face back-face">
-          <h3>{experience.name}</h3>
-          <p>{experience.company}</p>
-          <p>{experience.duration}</p>
-          <p className='experience-description-container'>{experience.description}</p>
+          <p className="experience-description-container">
+            {experience.description}
+          </p>
         </div>
       </div>
     </div>
