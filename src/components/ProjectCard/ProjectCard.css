@@ -1,0 +1,25 @@
+:root {
+    --dark: #092428;
+    --light: #c8e690;
+    --title-font: 'Carter One', cursive;
+    --sub-font: 'Black Han Sans', sans-serif;
+    --text-font: 'Candal', sans-serif;
+}
+
+.project-container {
+    background-color: var(--dark);
+    border-radius: 15px;
+    width: 40%;
+}
+
+.project-image-container {
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+}
+
+.project-image-container img {
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+}

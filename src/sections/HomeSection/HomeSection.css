@@ -5,6 +5,7 @@
     --sub-font: 'Black Han Sans', sans-serif;
     --text-font: 'Candal', sans-serif;
 }
+
 #home-section {
     display: flex;
     justify-content: center;
