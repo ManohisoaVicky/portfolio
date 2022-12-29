@@ -7,17 +7,18 @@ import "./ProjectsSection.css"
 function ProjectsSection({state}) {
 
   return (
-    <section id="projects-section" className={!state.projects ? "hide" : undefined}>
-      <h2>PROJECTS</h2>
-      {
-        projects.map((project) => {
-          return (
-            <ProjectCard project={project} />
-          )
-        })
-      }
+    <section
+      id="projects-section"
+      className={!state.projects ? "hide" : undefined}
+    >
+      <h2>Projects</h2>
+      <div id="projects-container">
+        {projects.map((project) => {
+          return <ProjectCard project={project} key={project.name} />;
+        })}
+      </div>
     </section>
-  )
+  );
 }
 
 export default ProjectsSection
