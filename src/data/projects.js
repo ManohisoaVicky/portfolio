@@ -120,8 +120,8 @@ export const projects = [
   {
     name: "MetArt",
     image: EventechImage,
-    link: "no link yet",
-    readme_link: "no link yet",
+    link: "https://scintillating-lollipop-ac4c7e.netlify.app",
+    readme_link: "https://github.com/ManohisoaVicky/project2-met-museum-app",
     tech_stack: [
       {
         icon: "devicon-javascript-plain",
@@ -164,8 +164,8 @@ export const projects = [
   {
     name: "Tetris",
     image: EventechImage,
-    link: "no link yet",
-    readme_link: "no link yet",
+    link: "https://manohisoavicky.github.io/project1-tetris/",
+    readme_link: "https://github.com/ManohisoaVicky/project1-tetris",
     tech_stack: [
       {
         icon: "devicon-javascript-plain",
