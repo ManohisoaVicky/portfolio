@@ -1,4 +1,6 @@
 import EventechImage from "../assets/eventech.png";
+import TetrisImage from "../assets/tetris.png";
+import MetArtImage from "../assets/metart.png";
 
 export const projects = [
   {
@@ -119,7 +121,7 @@ export const projects = [
   },
   {
     name: "MetArt",
-    image: EventechImage,
+    image: MetArtImage,
     link: "https://scintillating-lollipop-ac4c7e.netlify.app",
     readme_link: "https://github.com/ManohisoaVicky/project2-met-museum-app",
     tech_stack: [
@@ -163,7 +165,7 @@ export const projects = [
   },
   {
     name: "Tetris",
-    image: EventechImage,
+    image: TetrisImage,
     link: "https://manohisoavicky.github.io/project1-tetris/",
     readme_link: "https://github.com/ManohisoaVicky/project1-tetris",
     tech_stack: [

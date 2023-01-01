@@ -1,3 +1,11 @@
+:root {
+    --dark: #092428;
+    --light: #c8e690;
+    --title-font: 'Carter One', cursive;
+    --sub-font: 'Black Han Sans', sans-serif;
+    --text-font: 'Candal', sans-serif;
+}
+
 .hide {
     display: none;
 }
@@ -5,4 +13,12 @@
 #contact-section {
     height: 100vh;
     padding-top: 70px;
+}
+
+#contact-section h2 {
+   font-size: 38px;
+   font-family: var(--title-font);
+   color: var(--dark);
+   text-align: center;
+   margin: 50px 0px 50px 0px;
 }
