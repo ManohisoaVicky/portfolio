@@ -50,17 +50,38 @@
 }
 
 @media only screen and (max-width: 768px) {
-    #home-section {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    #home-section {    
+        height: 100vh;
+        padding-top: 70px;
+        font-family: var(--title-font);
+        background: url(../../assets/mobile_background.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
 
-    height: 100vh;
-    padding-top: 70px;
-    font-family: var(--title-font);
-    background: url(../../assets/mobile_background.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
+    #home-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        padding-top: 15rem;
+    }
+
+    #home-container > h1 {
+        font-family: var(--title-font);
+        font-size: 40px;
+        padding-bottom: 10px;
+        color: var(--dark);
+    }
+
+    #home-container > h3 {
+        font-family: var(--sub-font);
+        font-size: 26px;
+        color: var(--dark);
+    }
+
 }

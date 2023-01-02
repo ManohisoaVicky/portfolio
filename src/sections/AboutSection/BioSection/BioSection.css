@@ -30,3 +30,24 @@
     text-align: center;
     padding: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+
+    #bio-section > h2 {
+        font-size: 38px;
+        font-family: var(--title-font);
+        color: var(--dark);
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+
+    #bio-container {
+        width: 90%;
+        border: 2px solid var(--dark);
+        border-radius: 5px;
+        font-size: 18px;
+        font-family: var(--text-font);
+        text-align: center;
+        padding: 10px;
+    }
+}
