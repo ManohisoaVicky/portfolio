@@ -1,9 +1,13 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+  import { ToastContainer, toast } from "react-toastify";
+  import "react-toastify/dist/ReactToastify.css";
 
 import "./ContactSection.css";
 
 function ContactSection({ state }) {
+
+  const notify = () => toast("Message sent successfully!");
 
   const [inputState, setInputState] = useState({
     user_name: "", 
@@ -40,12 +44,15 @@ function ContactSection({ state }) {
             console.log(error.text);
           }
         );
+        
+        notify()
 
         setInputState({
           user_name: "",
           user_email: "",
           message: "",
         });
+
     };
 
      const handleChange = (e) => {
@@ -55,7 +62,7 @@ function ContactSection({ state }) {
        }));
      };
 
-     let formIsInvalid = !(isEmpty(inputState.user_name) && validateEmail(inputState.user_email) && minLength(inputState.message, 15)
+     let formIsInvalid = !(isEmpty(inputState.user_name) && validateEmail(inputState.user_email) && minLength(inputState.message, 10)
 )
   return (
     <section
@@ -66,10 +73,39 @@ function ContactSection({ state }) {
       <div id="contacts-container">
         <div id="contact-form-container">
           <form ref={form} onSubmit={sendEmail}>
-            <input type="text" name="user_name" placeholder="Name" value={inputState.user_name || ""} onChange={handleChange} />
-            <input type="email" name="user_email" placeholder="Email" value={inputState.user_email || ""} onChange={handleChange} />
-            <textarea name="message" placeholder="Message" value={inputState.message || ""} onChange={handleChange}/>
-            <input type="submit" value="Send" disabled={formIsInvalid}/>
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Name"
+              value={inputState.user_name || ""}
+              onChange={handleChange}
+            />
+            <input
+              type="email"
+              name="user_email"
+              placeholder="Email"
+              value={inputState.user_email || ""}
+              onChange={handleChange}
+            />
+            <textarea
+              name="message"
+              placeholder="Message (minimum of 10 characters)"
+              value={inputState.message || ""}
+              onChange={handleChange}
+            />
+            <input type="submit" value="Send" disabled={formIsInvalid} />
+            <ToastContainer
+              position="top-right"
+              autoClose={1500}
+              hideProgressBar
+              newestOnTop={false}
+              closeOnClick
+              rtl={false}
+              pauseOnFocusLoss
+              draggable={false}
+              pauseOnHover
+              theme="light"
+            />
           </form>
         </div>
         <div id="contact-container">
