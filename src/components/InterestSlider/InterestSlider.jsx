@@ -1,4 +1,6 @@
 import React, { useState} from 'react'
+import { UilAngleRightB } from "@iconscout/react-unicons";
+import { UilAngleLeftB } from "@iconscout/react-unicons";
 
 import Image1 from "../../assets/image-1.png";
 import Image2 from "../../assets/image-2.png";
@@ -34,12 +36,16 @@ function InterestSlider() {
   };
 
   return (
-    <div id='interest-container'>
-      <div id='interest-heading'>
-        Interests
-      </div>
+    <div id="interest-container">
+      <div id="interest-heading">Interests</div>
       <div id="interest-slider-container">
-        <div className="slider-button" onClick={prevInt}></div>
+        <div className="slider-icon-container">
+          <UilAngleLeftB
+            className="slider-button"
+            onClick={prevInt}
+            size="200"
+          />
+        </div>
         <div id="slider-container">
           <div id="slider-image-container">
             <img
@@ -53,7 +59,14 @@ function InterestSlider() {
             <p>{interest[index].description}</p>
           </div>
         </div>
-        <div className="slider-button" onClick={nextInt}></div>
+
+        <div className="slider-icon-container">
+          <UilAngleRightB
+            className="slider-button"
+            onClick={nextInt}
+            size="200"
+          />
+        </div>
       </div>
     </div>
   );

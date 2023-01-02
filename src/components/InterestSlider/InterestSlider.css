@@ -41,18 +41,22 @@
     height: 100%;
 }
 
-.slider-button {
+.slider-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 5%;
     height: 100%;
-    opacity: 0;
-    background-color: transparent;
+}
+
+.slider-button {
+    color: var(--dark);
     transition: .6s ease-out;
 }
 
 .slider-button:hover {
     cursor: pointer;
-    opacity: 1;
-    background-color: var(--dark);
 }
 
 #slider-image-container {
