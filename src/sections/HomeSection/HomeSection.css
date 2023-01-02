@@ -48,3 +48,19 @@
 #home-container h3 {
     color: var(--dark);
 }
+
+@media only screen and (max-width: 768px) {
+    #home-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    height: 100vh;
+    padding-top: 70px;
+    font-family: var(--title-font);
+    background: url(../../assets/mobile_background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+}
