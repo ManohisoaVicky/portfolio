@@ -68,7 +68,7 @@ function ContactSection({ state }) {
           <form ref={form} onSubmit={sendEmail}>
             <input type="text" name="user_name" placeholder="Name" value={inputState.user_name || ""} onChange={handleChange} />
             <input type="email" name="user_email" placeholder="Email" value={inputState.user_email || ""} onChange={handleChange} />
-            <textarea name="message" placeholder="Message" value={inputState.message || ""} onChange={handleChange} />
+            <textarea name="message" placeholder="Message" value={inputState.message || ""} onChange={handleChange}/>
             <input type="submit" value="Send" disabled={formIsInvalid}/>
           </form>
         </div>
