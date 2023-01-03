@@ -20,6 +20,7 @@ function NavBar({state, setState}) {
         contact: false
       }
     })
+    setClicked((prevState) => !prevState);
   }
 
   const toProjects = () => {
@@ -30,6 +31,7 @@ function NavBar({state, setState}) {
         contact: false
       }
     })
+    setClicked(false);
   }
 
   const toContact = () => {
@@ -40,6 +42,7 @@ function NavBar({state, setState}) {
         contact: true
       }
     })
+    setClicked(false);
   }
 
   return (
@@ -49,7 +52,7 @@ function NavBar({state, setState}) {
           clicked ? "navbar-list-container extended" : "navbar-list-container"
         }
       >
-        <li>
+        <li onClick={() => setClicked(false)}>
           <a href="#home-section" className="navbar-link">
             HOME
           </a>

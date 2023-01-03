@@ -7,7 +7,7 @@ export const projects = [
     name: "Eventech",
     image: EventechImage,
     link: "no link yet",
-    readme_link: "no link yet",
+    readme_link: "https://github.com/ManohisoaVicky/project4-event-app",
     tech_stack: [
       {
         icon: "devicon-javascript-plain",
