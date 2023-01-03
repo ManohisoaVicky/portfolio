@@ -1,9 +1,9 @@
 :root {
     --dark: #092428;
     --light: #c8e690;
-    --title-font: 'Carter One', cursive;
-    --sub-font: 'Black Han Sans', sans-serif;
-    --text-font: 'Candal', sans-serif;
+    --title-font: 'Roboto', sans-serif;
+    --sub-font: 'Open Sans', sans-serif;
+    --text-font: 'Montserrat', sans-serif;
 }
 
 .project-container {

@@ -1,9 +1,9 @@
 :root {
     --dark: #092428;
     --light: #c8e690;
-    --title-font: 'Carter One', cursive;
-    --sub-font: 'Black Han Sans', sans-serif;
-    --text-font: 'Candal', sans-serif;
+    --title-font: 'Roboto', sans-serif;
+    --sub-font: 'Open Sans', sans-serif;
+    --text-font: 'Montserrat', sans-serif;
 }
 
 #skills-section {
@@ -26,6 +26,7 @@
 }
 
 #skills-section > h2 {
+    margin-top: 50px;
    font-size: 38px;
    font-family: var(--title-font);
    color: var(--dark);
@@ -33,6 +34,7 @@
 }
 
 @media only screen and (max-width: 768px) {
+
     #skills-container {
         display: grid;
         grid-template-columns: auto auto auto auto;
