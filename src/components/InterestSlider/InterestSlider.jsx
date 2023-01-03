@@ -10,28 +10,25 @@ import { interests } from '../../data/interests';
 import "./InterestSlider.css"
 
 function InterestSlider() {
-
-    const [interest, setInterests] = useState(interests);
-    const [imgUrl, setImgUrl] = useState([
-      Image1,
-      Image2,
-      Image3
-    ])
-    const [index, setIndex] = useState(0)
+  // eslint-disable-next-line
+  const [interest, setInterests] = useState(interests);
+  // eslint-disable-next-line
+  const [imgUrl, setImgUrl] = useState([Image1, Image2, Image3]);
+  const [index, setIndex] = useState(0);
 
   const prevInt = () => {
     if (index > 0 && index < 3) {
-      setIndex((prev) => prev - 1)
+      setIndex((prev) => prev - 1);
     } else if (index === 0) {
-      setIndex(2)
+      setIndex(2);
     }
-  }
+  };
 
   const nextInt = () => {
     if (index >= 0 && index < 2) {
-       setIndex((prev) => prev + 1);
+      setIndex((prev) => prev + 1);
     } else if (index === 2) {
-      setIndex(0)
+      setIndex(0);
     }
   };
 
