@@ -113,6 +113,8 @@
     font-family: var(--text-font);
     margin-top: 10px;
     transition: .8s ease-out;
+    word-break: break-word;
+    padding-right: 10px;
 }
 
 #contact-container a:hover {
