@@ -19,7 +19,8 @@
    font-size: 38px;
    font-family: var(--title-font);
    color: var(--dark);
-   margin-bottom: 50px;
+   text-align: center;
+   margin: 50px 0px 50px 0px;
 }
 
 #bio-container {
@@ -33,14 +34,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-
-    #bio-section > h2 {
-        font-size: 38px;
-        font-family: var(--title-font);
-        color: var(--dark);
-        margin-bottom: 5rem;
-        margin-top: 5rem;
-    }
 
     #bio-container {
         width: 90%;
