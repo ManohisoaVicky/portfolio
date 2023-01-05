@@ -1,6 +1,7 @@
 import EventechImage from "../assets/eventech.png";
-import TetrisImage from "../assets/tetris.png";
+import BlenImage from "../assets/blen.png";
 import MetArtImage from "../assets/metart.png";
+import TetrisImage from "../assets/tetris.png";
 
 export const projects = [
   {
@@ -61,7 +62,7 @@ export const projects = [
   },
   {
     name: "Blen",
-    image: EventechImage,
+    image: BlenImage,
     link: "no link yet",
     readme_link: "no link yet",
     tech_stack: [
