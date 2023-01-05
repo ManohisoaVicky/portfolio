@@ -11,6 +11,6 @@ export const experiences = [
     company: "Rajat C",
     duration: "July 2021 - February 2022",
     description:
-      "While working at Rajat C, I had the opportunity to write various different types of writings with different types of writing styles. I was also given the opportunity to proofread and edit articles to make sure they were factual and error free.",
+      "While working at Rajat C, I had the opportunity to write various types of articles with different writing styles. I was also given the opportunity to proofread and edit articles to make sure they were factual and error free.",
   },
 ];

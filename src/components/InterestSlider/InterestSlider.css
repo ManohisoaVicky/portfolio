@@ -11,7 +11,7 @@
     border: 2px solid var(--dark);
     border-radius: 10px;
     width: 55%;
-    height: 50%;
+    height: 45vh;
 }
 
 #interest-heading {
@@ -46,7 +46,7 @@
     justify-content: center;
     align-items: center;
 
-    width: 5%;
+    width: 7%;
     height: 100%;
 }
 
@@ -133,6 +133,7 @@
     #slider-description-container > h3 {
         font-family: var(--title-font);
         font-size: 26px;
+        padding-top: 10px;
     }
 
     #slider-description-container {
@@ -149,8 +150,13 @@
     }
 
     #slider-image {
+        padding-top: 10px;
         width: 75%;
         height: 90%;
+    }
+
+    .slider-icon-container {
+        height: auto;
     }
 
 }

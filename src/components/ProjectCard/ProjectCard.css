@@ -131,8 +131,10 @@
     }
 
     .project-links-container {
-        padding-top: 10px;
         margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 
     .project-links {
@@ -142,5 +144,6 @@
         padding: 10px 15px;
         margin-right: 20px;
         border-radius: 5px;
+        margin-top: 30px;
     }
 }
