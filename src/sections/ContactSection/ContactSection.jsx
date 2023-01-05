@@ -118,7 +118,7 @@ function ContactSection({ state }) {
               href="mailto:manohisoarajaonarivony@gmail.com"
               className="contact-link"
             >
-              <UilEnvelope />
+              <UilEnvelope size="40" />
               <span>Email</span>
             </a>
             <a
@@ -127,7 +127,7 @@ function ContactSection({ state }) {
               rel="noreferrer"
               className="contact-link"
             >
-              <UilLinkedin />
+              <UilLinkedin size="40" />
               <span>LinkedIn</span>
             </a>
             <a
@@ -136,7 +136,7 @@ function ContactSection({ state }) {
               rel="noreferrer"
               className="contact-link"
             >
-              <UilGithub />
+              <UilGithub size="40"/>
               <span>GitHub</span>
             </a>
           </div>

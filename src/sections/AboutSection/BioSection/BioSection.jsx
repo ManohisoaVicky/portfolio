@@ -10,7 +10,7 @@ function BioSection() {
       <div id="bio-container">
         <p>
           As a former writer, I loved the creativity and challenges that came
-          with writing. My love for challenges eventually led me to an
+          with writing. My desire for challenges eventually led me to an
           introduction to computer science course, which sparked my love for
           coding. A year later, I enrolled in a Software Engineering Immersive
           programing. Through this, I was able to hone and grow my knowledge and

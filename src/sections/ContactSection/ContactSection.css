@@ -177,9 +177,11 @@
     .contact-link {
         display: flex;
         flex-direction: column;
+        padding-right: 0px;
     }
 
     .contact-link span {
         padding-top: 5px;
+        padding-left: 0px;
     }
 }

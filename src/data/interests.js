@@ -15,6 +15,6 @@ export const interests = [
     id: 2,
     name: "Reading",
     description:
-      "I love reading.I enjoy reading fantasy novels, such as The Beginning After The End by TurtleMe.",
+      "I love reading. I enjoy reading fantasy novels, such as The Beginning After The End by TurtleMe.",
   },
 ];
