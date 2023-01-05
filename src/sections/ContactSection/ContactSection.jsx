@@ -1,8 +1,11 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-  import { ToastContainer, toast } from "react-toastify";
-  import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
+import { UilEnvelope } from "@iconscout/react-unicons";
+import { UilLinkedin } from "@iconscout/react-unicons";
+import { UilGithub } from "@iconscout/react-unicons";
 import "./ContactSection.css";
 
 function ContactSection({ state }) {
@@ -110,23 +113,33 @@ function ContactSection({ state }) {
         </div>
         <div id="contact-container">
           <h3>Contact Info</h3>
-          <a href="mailto:manohisoarajaonarivony@gmail.com">
-            manohisoarajaonarivony@gmail.com
-          </a>
-          <a
-            href="https://www.linkedin.com/in/manohisoa-rajaonarivony/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            linkedin.com/in/manohisoa-rajaonarivony
-          </a>
-          <a
-            href="https://github.com/ManohisoaVicky"
-            target="_blank"
-            rel="noreferrer"
-          >
-            github.com/ManohisoaVicky
-          </a>
+          <div className="contact-links-container">
+            <a
+              href="mailto:manohisoarajaonarivony@gmail.com"
+              className="contact-link"
+            >
+              <UilEnvelope />
+              <span>Email</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/manohisoa-rajaonarivony/"
+              target="_blank"
+              rel="noreferrer"
+              className="contact-link"
+            >
+              <UilLinkedin />
+              <span>LinkedIn</span>
+            </a>
+            <a
+              href="https://github.com/ManohisoaVicky"
+              target="_blank"
+              rel="noreferrer"
+              className="contact-link"
+            >
+              <UilGithub />
+              <span>GitHub</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>

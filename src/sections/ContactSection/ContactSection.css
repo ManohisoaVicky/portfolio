@@ -106,7 +106,10 @@
     color: white;
 }
 
-#contact-container a {
+.contact-link {
+    display: flex;
+    align-items: center;
+
     text-decoration: none;
     color: white;
     font-size: 15px;
@@ -117,8 +120,12 @@
     padding-right: 10px;
 }
 
-#contact-container a:hover {
+.contact-link:hover {
     color: var(--light);
+}
+
+.contact-link span {
+    padding-left: 5px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -158,5 +165,21 @@
 
     #contact-container h3 {
         padding-bottom: 1rem;
+    }
+
+    .contact-links-container {
+        display: flex;
+        justify-content: space-between;
+
+        width: auto;
+    }
+
+    .contact-link {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-link span {
+        padding-top: 5px;
     }
 }
