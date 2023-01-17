@@ -63,8 +63,8 @@ export const projects = [
   {
     name: "Blen",
     image: BlenImage,
-    link: "no link yet",
-    readme_link: "no link yet",
+    link: "https://blen.netlify.app/",
+    readme_link: "https://github.com/ManohisoaVicky/project3-blog-app",
     tech_stack: [
       {
         icon: "devicon-javascript-plain",
