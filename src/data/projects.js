@@ -7,7 +7,7 @@ export const projects = [
   {
     name: "Eventech",
     image: EventechImage,
-    link: "no link yet",
+    link: "http://bit.ly/3yq6KxO",
     readme_link: "https://github.com/ManohisoaVicky/project4-event-app",
     tech_stack: [
       {
